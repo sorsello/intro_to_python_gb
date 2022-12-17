@@ -8,12 +8,7 @@
 # - 7 -> да
 # - 1 -> нет
 from common import console_helpers
-
-def determine_if_week_day(user_number: int) -> bool:
-    if user_number >= 1 and user_number <= 5:
-        return False
-    else:
-        return True
+from homework_1.task_1_functions import determine_if_week_day
 
 user_input = input("Enter a day of the week number: ")
 try:
