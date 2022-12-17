@@ -1,5 +1,5 @@
 import pytest as pytest
-from homework_1.task_1_functions import determine_if_week_day
+from homework_1.task_1.task_1_functions import determine_if_week_day
 
 @pytest.mark.parametrize('test_data', [1, 2, 3, 4, 5])
 def test_determine_if_week_day_false(test_data):

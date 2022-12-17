@@ -8,7 +8,7 @@
 # - 7 -> да
 # - 1 -> нет
 from common import console_helpers
-from homework_1.task_1_functions import determine_if_week_day
+from homework_1.task_1.task_1_functions import determine_if_week_day
 
 user_input = input("Enter a day of the week number: ")
 try:
