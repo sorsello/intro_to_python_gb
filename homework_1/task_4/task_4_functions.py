@@ -16,7 +16,7 @@ def determine_x_and_y_ranges_by_dimension(user_dimension:int) -> tuple[str,str]:
     elif (user_dimension == 3):
         possible_ranges = ("0 to -∞", "0 to -∞")
     elif (user_dimension == 4):
-        possible_ranges = ("0 to -∞", "0 to ∞")
+        possible_ranges = ("0 to ∞", "0 to -∞")
     return possible_ranges
 
 def display_final_result(user_dimension: int, possible_ranges: tuple[str, str]):
