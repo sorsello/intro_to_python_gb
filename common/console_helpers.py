@@ -31,3 +31,16 @@ def capture_user_input_list_of_int() -> list[int]:
         return user_list
     except ValueError:
         exit_program_with_error_message("The input must be a number.")
+
+def capture_user_input_list_of_float() -> list[float]:
+    try:
+        user_list: list[float] = []
+        list_length: int = int(input("Set how many elements your list will have: "))
+        for i in range(list_length):
+            user_element: float = float(input(f"Please set int value for the {i} element in the list: "))
+            user_list.append(user_element)
+
+        print(f"Your list is -> {user_list}")
+        return user_list
+    except ValueError:
+        exit_program_with_error_message("The input must be a float.")
