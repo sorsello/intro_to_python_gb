@@ -5,8 +5,8 @@ token: str = "YOUR_TOKEN"
 
 bot = telebot.TeleBot(token)
 
-you: str = "игрок"
-smart_bot: str = "бот"
+you: str = "'😀 игрок'"
+smart_bot: str = "'🤖 бот'"
 inital_num_of_sweets: int = 221
 
 game_data = {"turn": 0,
