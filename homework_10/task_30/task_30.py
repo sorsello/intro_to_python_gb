@@ -4,7 +4,7 @@ from datetime import datetime
 
 from homework_10.task_30.logger_service import log_activity
 
-API_TOKEN = "5884697253:AAHA4GPlet2QMSNeg6JRf7WgddtSjVdN2W0"
+API_TOKEN = "YOUR_TOKEN"
 bot = telebot.TeleBot(API_TOKEN)
 
 app_data = {"num1": 0, "num2": 0, "separator": "|", "timeformat": datetime.now().strftime('%D %H:%M')}
